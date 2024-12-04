@@ -4,7 +4,32 @@ Mindmap Copilot, powered by AI CopilotKit, simplifies your mindmap creation. Cha
 
 To learn more about how this project works, you can read this blog post: https://dev.to/ngviethoang/integrate-copilot-feature-into-your-react-applications-using-copilotkit-2nga
 
-## Features
+## 🚀 Getting Started  
+
+### Open Using Daytona
+
+1. **Install Daytona**: Follow the [Daytona installation guide](https://www.daytona.io/docs/installation/installation/).  
+2. **Create the Workspace**:  
+   ```bash
+   daytona create https://github.com/hoangv97/MindmapCopilot-Daytona 
+   ```
+3. **Edit the `.env.local` file with your OpenAI API key:**
+   ```bash
+   OPENAI_API_KEY=<YOUR OPENAI API KEY>
+   ```
+
+4. **Start the Application**:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```  
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+---
+
+## ✨ Features  
 
 - **Interactive Visualization**: Adjust and add to your mindmap in real-time.
 - **AI-Assisted Mindmap Creation**: Effortlessly create mindmaps by chatting with your AI Copilot.
@@ -21,26 +46,6 @@ To learn more about how this project works, you can read this blog post: https:/
 - Radix UI + icons
 - Shadcn UI
 - State Management: Zustand
-
-## Getting Started
-
-Install NPM by running the following command:
-
-```bash
-npm install
-```
-
-Copy `.env.local` file from `.env.example` file and add your OpenAI API key.
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Demo
 
